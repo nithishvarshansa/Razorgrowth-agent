@@ -1,0 +1,32 @@
+# --- Secrets: never commit real credentials ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Node ---
+node_modules/
+
+# --- Build output ---
+dist/
+build/
+
+# --- Local databases and backups (schema is created automatically) ---
+*.db
+*.db.*
+*.sqlite
+*.sqlite3
+*.backup*
+*.bak
+
+# --- Logs and OS files ---
+*.log
+logs/
+.DS_Store
+Thumbs.db

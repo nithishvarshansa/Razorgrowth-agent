@@ -1,0 +1,10 @@
+{
+  "name": "ai-growth-agent",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000\" \"cd frontend && npm run dev -- --host 127.0.0.1 --port 5173\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
