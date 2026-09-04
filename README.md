@@ -59,8 +59,8 @@ All commands are run from the project root unless stated otherwise.
 1. Clone the repository and enter it:
 
    ```powershell
-   git clone <repository-url>
-   cd razorpay
+   git clone https://github.com/nithishvarshansa/Razorgrowth-agent.git
+   cd Razorgrowth-agent
    ```
 
 2. Create the backend environment file and fill in your own Test Mode credentials:
